@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Folha de estilo de CSS Linkado-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="./estilos/flexbox.css">
+    <link rel="stylesheet" href="./estilos/reset.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!--Fonte do projeto -->
-    <link  href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
     <title>Portifólio Pessoal</title>
 </head>
+
 <body>
     <!--Sessão do Menu-->
     <div class="all">
-        <section class="menu" >
+        <section class="menu">
             <header>
                 <img src="assets/vector.png">
-                <h3 class="menu__title" >Antono Carlos</h3>
+                <h3 class="menu__title">Antonio Carlos</h3>
             </header>
             <nav>
                 <ul>
@@ -36,14 +40,15 @@
             </nav>
         </section>
 
-    <!-- Sessão de Header/title/hero-->    
+        <!-- Sessão de Header/title/hero-->
         <section class="title">
             <div class="title__div">
                 <!--adicionar profile-->
                 <img class="title__profile" src="" alt="foto do titulo">
                 <div class="title__container" id="#sobremim">
                     <h2 class="title__bio">Olá, me chamo Antonio Carlos</h2>
-                    <h3 class="title__subsection">Atualmente estou estudando análise e desenvolvimento de sistema e atualmente cursando o ONE da Alura com foco em Desenvolvimento Front-end</h3>
+                    <h3 class="title__subsection">Atualmente estou estudando análise e desenvolvimento de sistema e
+                        atualmente cursando o ONE da Alura com foco em Desenvolvimento Front-end</h3>
                     <ul class="title__network">
                         <!--Ponha os links de suas redes sociais favoritas-->
                         <li class="title__network__item"><a href="">Github</a></li>
@@ -54,7 +59,7 @@
             </div>
         </section>
 
-            <!-- Sessão sobre mim-->
+        <!-- Sessão sobre mim-->
         <section class="about">
             <div class="about__container">
                 <h3 class="about__title"></h3>
@@ -62,10 +67,188 @@
                 <p class="about__paragraph"></p>
                 <!-- Caso eu queira posso colocar minha própria assinatura, posso inserir aqui!-->
 
-                <img src=""
-                
+                <img src="" </div>
+        </section>
+        <!-- Sessão de Skills e Habilidades-->
+        <section class="skills">
+            <h3 skill__title>Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="" alt=""></li>
+                        <li class="skills__name"> Html 5</li>
+                    </ul>
+                </div>
+
+                <div class="skill__box">
+                    <ul>
+                        <li class="skills__img" alt=""></li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill__box">
+                    <ul>
+                        <li class="skills__img" alt=""></li>
+                        <li class="skills__name">REACT</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill__box">
+                    <ul>
+                        <li class="skills__img" alt=""></li>
+                        <li class="skills__name">JavaScript</li>
+                    </ul>
+                </div>
+
+
+                <div class="skill__box">
+                    <ul>
+                        <li class="skills__img" alt=""></li>
+                        <li class="skills__name">Node JS</li>
+                    </ul>
+                </div>
+
+            </div>
+    </div>
+    </section>
+
+    <!--SESSÃO DE HOBBIES-->
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+                <div class="hobbies__line">
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies_img"><img src=""></li>
+                            <li class="hobbies__name">Animes</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies_img"><img src=""></li>
+                            <li class="hobbies__name">Ouvir música</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies_img"><img src=""></li>
+                            <li class="hobbies__name">Assistir Séries</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies_img"><img src=""></li>
+                            <li class="hobbies__name">Cozinhar</li>
+                        </ul>
+                    </div>
+
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies_img"><img src=""></li>
+                            <li class="hobbies__name">Atividades Físicas</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sessão de histórico Acadêmico-->
+        <section class="academic">
+            <h2 class="academic__title" id="formacao">Formação Acadêmica</h2>
+            <div class="academic_courses">
+                <div class="academic__courses_box">
+                    <ul class="academic__courses_list">
+                        <!--Inserir aqui o logo do seu local de formação-->
+                        <li class="academic__courses__item__img"></li>
+                        <li class="academic__courses__item__title"><h4>Análise e Desenvolvimento de Sistemas</h4></li>
+                        <li class="academic__courses__item__subtitle">Estácio de Sá</li>
+                    </ul>
+                </div>
+                <div class="academic__courses_box">
+                    <ul class="academic__courses_list">
+                        <!--Inserir aqui o logo do seu local de formação-->
+                        <li class="academic__courses__item__img"></li>
+                        <li class="academic__courses__item__title"><h4>Formação em Dev Front-end</h4></li>
+                        <li class="academic__courses__item__subtitle">Alura</li>
+                    </ul>
+                </div>
+                <div class="academic__courses_box">
+                    <ul class="academic__courses_list">
+                        <!--Inserir aqui o logo do seu local de formação-->
+                        <li class="academic__courses__item__img"></li>
+                        <li class="academic__courses__item__title"><h4>Suporte Técnico em TI</h4></li>
+                        <li class="academic__courses__item__subtitle">Google - Coursera </li>
+                    </ul>
             </div>
         </section>
+        <!-- Sessão de Experiências Profissionais e Projetos-->
+        <section class="experience">
+            <h2 class="experience__section__title" id="xp">Experiêcias profissionais</h2>
+            <div class="experience__boxx">
+                <!-- Insira a logo da captura de seu projeto ou trabalho -->
+                <img class="experience__img" src="" alt="inserir experiência em imagem">
+                <div class="experience__info">
+                    <h2 class="experience__section__title">Decodificador de texto</h2>
+                    <h3 class="experience__text">Challenge Alura Codificador</h3>
+                        <div class="experience__description">
+                            <!-- Insirir aqui o link para demostração do projeto no Github/pages ou afins -->
+                                <span class="experience__repo"><a href=""><button class="experience__botao__repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experience__botao__demo">Ver demo</button></a></span>
+
+                        </div>
+                </div>
+            </div>
+
+            <div class="experience__boxx">
+                <!-- Insira a logo da captura de seu projeto ou trabalho -->
+                <img class="experience__img" src="" alt="inserir experiência em imagem">
+                <div class="experience__info">
+                    <h2 class="experience__section__title">Jogo criado com HTML, CSS e JavaScript</h2>
+                    <h3 class="experience__text">Challenge Oracle</h3>
+                        <div class="experience__description">
+                            <!-- Insirir aqui o link para demostração do projeto no Github/pages ou afins -->
+                                <span class="experience__repo"><a href=""><button class="experience__botao__repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experience__botao__demo">Ver demo</button></a></span>
+
+                        </div>
+                </div>
+            </div>
+            <!-- Sessão para contatos -->
+            <section class="formcontato">
+                <div id="contato" class="formcontato__contacto">
+                    <div class="formcontato--esquerda">
+                        <img class="formcontato__img" src="" alt="adicionar imagem contato">
+                    </div>
+                    <div class="formcontato__text">
+                        <h2 class="formcontato__title">Contato</h2>
+                        <h3 class="formcontato__subtext">Quer entrar em contato comigo ?</h3>
+                        <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível!</h3>
+                        <form class="formcontato__form">
+                            <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                            <input class="formcontato__input" type="email" id="email" placeholder="Email">
+                            <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                            <textarea class="formcontato__textarea" cols="5" rows="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                            <button class="formcontato__botao">Enviar mensagem</button>
+                        </form>
+                    </div>
+                </div> 
+            </section>
+
+            <!-- Sessão de Footer e Rodapé -->
+            <section class="footer">
+                <div class="footer__ropade">
+                    <p>Desenvolvido por Antonio dos Santos</p>
+                    <p>2024</p>
+                </div>
+            </section>
+        </section>
     </div>
+    <!-- Script Linkado do seu documento JavaScript -->
+<script src="validate.js"></script>
 </body>
+
 </html>
