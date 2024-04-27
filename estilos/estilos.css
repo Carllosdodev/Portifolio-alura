@@ -245,7 +245,7 @@ section.hobbies {
 }
 
 
-
+/* aqui não estou conseguindo centralizar  os campos abaixo */
 /* Experiência Acadêmica */
 
 section.academic {
@@ -496,6 +496,8 @@ section.footer {
 
 /* responsivdade */
 
+/* A responsividade do código está quebrando para mobile */
+
 /* tablet */
 @media (min-width: 768px) {
 
@@ -669,6 +671,7 @@ section.footer {
     .hobbies__img {
         font-size: 2rem;
     }
+
 
     /* Formação acadêmica */
     .academic_container {
