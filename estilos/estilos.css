@@ -9,7 +9,7 @@
     --cor-terciaria: #FAA300;
     --cor-hover: #FAA300;
     --cor-fonte: #1B1A55; 
-    --fonte-principal: 'Raleway';
+    --fonte-principal: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -50,6 +50,7 @@ section.menu {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    
 
 }
 
@@ -63,9 +64,8 @@ section.menu {
 
 
 .menu__list {
-    display: flex; 
-    align-items: center;
-    gap: 1.5rem; 
+    display: none; 
+
   }
     
   
@@ -92,7 +92,7 @@ section.title {
     align-items: center;
     gap: 1rem;
     padding-top: 3rem;
-
+    
 }
 
 .title__profile {
@@ -104,7 +104,7 @@ section.title {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-
+    
 }
 
 .title__network {
@@ -140,6 +140,7 @@ section.title {
 
 section.about {
     background-color: var(--cor-secundaria);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .about__container {
@@ -265,7 +266,7 @@ section.academic {
 
 }
 
-.academic__courses {
+/* .academic__courses {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,7 +274,7 @@ section.academic {
     gap: 1.125rem;
 
     width: 100%;
-}
+} */
 
 .academic__courses__list {
     display: flex;
@@ -283,7 +284,7 @@ section.academic {
 }
 
 .academic__courses__item__img {
-    background-color: #fff;
+    background-color: var(--cor-secundaria);
 }
 
 .academic__courses__item__img img {
@@ -322,7 +323,7 @@ section.experience {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-
+    
 }
 
 .experience__box {
@@ -330,7 +331,7 @@ section.experience {
     flex-direction: column;
     align-items: center;
     gap: 1.625rem;
-
+    ;
 }
 
 .experience__img {
@@ -373,7 +374,7 @@ section.experience {
 .experience__botao--demo {
     border: 1px solid var(--cor-fonte);
     background-color: var(--cor-hover);
-    color: var(--cor-fonte);
+    color: var(--cor-principal);
     cursor: pointer;
 }
 
@@ -513,6 +514,7 @@ section.footer {
 
     }
 
+    
     /* skills */
     .title__subsection {
         font-size: 1rem;
@@ -583,12 +585,18 @@ section.footer {
 @media (min-width: 1024px) {
 
     * {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     section.menu {
         padding: 2rem 9.5rem;
         
+    }
+
+    .menu__list {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem; 
     }
 
     .title__div {
@@ -701,7 +709,7 @@ section.footer {
 
     section.experience {
         padding: 2rem 9.5rem;
-
+        
     }
 
     .experience__section__title {
