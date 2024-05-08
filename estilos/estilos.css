@@ -468,7 +468,7 @@ section.experience {
 
 .formcontato__input,
 .formcontato__textarea {
-    border: 1px solid color: black;
+    border: 1px solid color;
 }
 
 .formcontato__input::placeholder,
