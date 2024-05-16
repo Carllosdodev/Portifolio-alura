@@ -249,7 +249,7 @@ section.hobbies {
 }
 
 
-/* aqui não estou conseguindo centralizar  os campos abaixo */
+
 /* Experiência Acadêmica */
 
 section.academic {
@@ -296,6 +296,7 @@ section.academic {
     width: 100%;
     border-radius: 2px 2px 0 1px solid 50%;
     box-shadow: 3px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
     
 
@@ -670,6 +671,8 @@ section.footer {
     .skills__line {
         justify-content: space-between;
     }
+        
+        
 
     .skills__img {
         width: 150px;
@@ -679,8 +682,8 @@ section.footer {
 
     section.hobbies {
         padding: 2rem 9.5rem 5.5rem 9.5rem;
-
     }
+
 
     .hobbies__title {
         font-size: 2rem;
@@ -708,14 +711,14 @@ section.footer {
 
     .academic_title {
         font-size: 2rem;
-
     }
+
 
     .academic__courses__item__img {
         text-align: center;
         width: 100%;
-
     }
+
 
     .academic__courses__item__img img {
         width: 17.5rem;
@@ -729,29 +732,29 @@ section.footer {
 
     section.experience {
         padding: 2rem 9.5rem;
-
     }
+
 
     .experience__section__title {
         font-size: 2rem;
-
     }
+
 
     .experience__section__container {
         gap: 4rem;
-
     }
+
 
     .experience__section__title {
         padding-bottom: 2rem;
-
     }
+
 
     .experience__box {
         flex-direction: row;
         gap: 1rem;
-
     }
+
 
 
 
@@ -764,8 +767,8 @@ section.footer {
     .formcontato__contacto {
         flex-direction: row;
         gap: 1rem;
-
     }
+
 
     .formcontato--esquerda {
         display: block;
@@ -773,8 +776,8 @@ section.footer {
 
     .formcontato__title {
         font-size: 2rem;
-
     }
+
 
     /* Footer */
 }
